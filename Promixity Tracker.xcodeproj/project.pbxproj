@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3709342BBC9CDA008C1666 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709332BBC9CDA008C1666 /* NFCReader.swift */; };
+		1F3709362BBC9E2A008C1666 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709352BBC9E2A008C1666 /* Logger.swift */; };
+		1F37093A2BBC9E9C008C1666 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709392BBC9E9C008C1666 /* NotificationManager.swift */; };
+		1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */; };
+		1F37093F2BBCA008008C1666 /* TapticControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37093E2BBCA008008C1666 /* TapticControl.swift */; };
+		1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709412BBCA077008C1666 /* IntroductionView.swift */; };
+		1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709432BBCA084008C1666 /* BigButtonView.swift */; };
+		1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709452BBCA092008C1666 /* PermissionView.swift */; };
+		1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709472BBCA09E008C1666 /* DoneView.swift */; };
+		1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709492BBCA153008C1666 /* LocationPermissionView.swift */; };
+		1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */; };
+		1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */; };
+		1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */; };
+		1F3709522BBCA244008C1666 /* StudyOptInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709512BBCA244008C1666 /* StudyOptInView.swift */; };
 		1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */; };
 		1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA42BBC8A250023D38D /* ContentView.swift */; };
 		1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA62BBC8A260023D38D /* Assets.xcassets */; };
@@ -36,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F3709332BBC9CDA008C1666 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+		1F3709352BBC9E2A008C1666 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		1F3709392BBC9E9C008C1666 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		1F37093E2BBCA008008C1666 /* TapticControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticControl.swift; sourceTree = "<group>"; };
+		1F3709412BBCA077008C1666 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		1F3709432BBCA084008C1666 /* BigButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonView.swift; sourceTree = "<group>"; };
+		1F3709452BBCA092008C1666 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		1F3709472BBCA09E008C1666 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		1F3709492BBCA153008C1666 /* LocationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionView.swift; sourceTree = "<group>"; };
+		1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionView.swift; sourceTree = "<group>"; };
+		1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlwaysPermissionView.swift; sourceTree = "<group>"; };
+		1F3709512BBCA244008C1666 /* StudyOptInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyOptInView.swift; sourceTree = "<group>"; };
 		1FEA5C9F2BBC8A250023D38D /* Promixity Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promixity Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerApp.swift; sourceTree = "<group>"; };
 		1FEA5CA42BBC8A250023D38D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +104,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3709322BBC9CC8008C1666 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F3709332BBC9CDA008C1666 /* NFCReader.swift */,
+				1F3709352BBC9E2A008C1666 /* Logger.swift */,
+				1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */,
+				1F37093E2BBCA008008C1666 /* TapticControl.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				1F3709392BBC9E9C008C1666 /* NotificationManager.swift */,
+			);
+			path = "Bluetooth & Tracking";
+			sourceTree = "<group>";
+		};
+		1F3709402BBCA041008C1666 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				1F3709412BBCA077008C1666 /* IntroductionView.swift */,
+				1F3709432BBCA084008C1666 /* BigButtonView.swift */,
+				1F3709452BBCA092008C1666 /* PermissionView.swift */,
+				1F3709472BBCA09E008C1666 /* DoneView.swift */,
+				1F3709492BBCA153008C1666 /* LocationPermissionView.swift */,
+				1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */,
+				1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */,
+				1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */,
+				1F3709512BBCA244008C1666 /* StudyOptInView.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
 		1FEA5C962BBC8A250023D38D = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +164,9 @@
 		1FEA5CA12BBC8A250023D38D /* Promixity Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				1F3709402BBCA041008C1666 /* Introduction */,
+				1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */,
+				1F3709322BBC9CC8008C1666 /* Helpers */,
 				1FEA5CCF2BBC94F30023D38D /* Views */,
 				1FEA5CD22BBC95C30023D38D /* Localizable.strings */,
 				1FEA5CA62BBC8A260023D38D /* Assets.xcassets */,
@@ -276,7 +342,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */,
+				1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */,
 				1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */,
+				1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */,
+				1F37093A2BBC9E9C008C1666 /* NotificationManager.swift in Sources */,
+				1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */,
+				1F3709342BBC9CDA008C1666 /* NFCReader.swift in Sources */,
+				1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */,
+				1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */,
+				1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */,
+				1F3709362BBC9E2A008C1666 /* Logger.swift in Sources */,
+				1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */,
+				1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */,
+				1F3709522BBCA244008C1666 /* StudyOptInView.swift in Sources */,
+				1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */,
+				1F37093F2BBCA008008C1666 /* TapticControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
