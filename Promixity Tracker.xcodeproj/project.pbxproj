@@ -15,6 +15,7 @@
 		1FEA5CBE2BBC8A260023D38D /* Promixity_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBD2BBC8A260023D38D /* Promixity_TrackerUITests.swift */; };
 		1FEA5CC02BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBF2BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift */; };
 		1FEA5CCE2BBC92FF0023D38D /* Promixity Tracker--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CCD2BBC92FE0023D38D /* Promixity Tracker--Info.plist */; };
+		1FEA5CD32BBC95C30023D38D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CD22BBC95C30023D38D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1FEA5CBF2BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1FEA5CCC2BBC8D4B0023D38D /* Promixity Tracker (IOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Promixity Tracker (IOS).entitlements"; sourceTree = "<group>"; };
 		1FEA5CCD2BBC92FE0023D38D /* Promixity Tracker--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Promixity Tracker--Info.plist"; sourceTree = "<group>"; };
+		1FEA5CD22BBC95C30023D38D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 		1FEA5CA12BBC8A250023D38D /* Promixity Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */,
-				1FEA5CA42BBC8A250023D38D /* ContentView.swift */,
+				1FEA5CCF2BBC94F30023D38D /* Views */,
+				1FEA5CD22BBC95C30023D38D /* Localizable.strings */,
 				1FEA5CA62BBC8A260023D38D /* Assets.xcassets */,
 				1FEA5CA82BBC8A260023D38D /* Preview Content */,
 			);
@@ -130,6 +132,15 @@
 				1FEA5CBF2BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Promixity TrackerUITests";
+			sourceTree = "<group>";
+		};
+		1FEA5CCF2BBC94F30023D38D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */,
+				1FEA5CA42BBC8A250023D38D /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEA5CD32BBC95C30023D38D /* Localizable.strings in Resources */,
 				1FEA5CCE2BBC92FF0023D38D /* Promixity Tracker--Info.plist in Resources */,
 				1FEA5CAA2BBC8A260023D38D /* Preview Assets.xcassets in Resources */,
 				1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */,
