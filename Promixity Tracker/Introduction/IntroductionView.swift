@@ -133,7 +133,7 @@ struct TitleView: View {
                 .customTitleText()
                 .padding(.top)
             
-            Text("AirGuard")
+            Text("Promixity Tracker")
                 .customTitleText()
                 .gradientForeground(gradient: LinearGradient(gradient: .init(colors: Constants.defaultColors), startPoint: .bottomLeading, endPoint: .topTrailing))
         }
