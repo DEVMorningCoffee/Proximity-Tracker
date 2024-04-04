@@ -17,7 +17,6 @@
 		1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709452BBCA092008C1666 /* PermissionView.swift */; };
 		1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709472BBCA09E008C1666 /* DoneView.swift */; };
 		1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709492BBCA153008C1666 /* LocationPermissionView.swift */; };
-		1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */; };
 		1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */; };
 		1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */; };
 		1F3709552BBCA889008C1666 /* ManualScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709542BBCA889008C1666 /* ManualScanningView.swift */; };
@@ -35,6 +34,12 @@
 		1F37097C2BBCACC4008C1666 /* DetailNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097B2BBCACC4008C1666 /* DetailNotificationView.swift */; };
 		1F37097E2BBCACD6008C1666 /* DetailMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097D2BBCACD6008C1666 /* DetailMoreView.swift */; };
 		1F3709802BBCACF2008C1666 /* RSSIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37097F2BBCACF2008C1666 /* RSSIndicator.swift */; };
+		1FE2DD952BBF33D1009937F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */; };
+		1FE2DD972BBF341B009937F8 /* AppDelegate+NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */; };
+		1FE2DD992BBF34DC009937F8 /* AppDelegate+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */; };
+		1FE2DD9B2BBF35EE009937F8 /* TrackingDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */; };
+		1FE2DD9D2BBF49E2009937F8 /* StudyOptInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */; };
+		1FE2DD9F2BBF4C4A009937F8 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */; };
 		1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */; };
 		1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA42BBC8A250023D38D /* ContentView.swift */; };
 		1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CA62BBC8A260023D38D /* Assets.xcassets */; };
@@ -113,7 +118,6 @@
 		1F3709452BBCA092008C1666 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
 		1F3709472BBCA09E008C1666 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
 		1F3709492BBCA153008C1666 /* LocationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionView.swift; sourceTree = "<group>"; };
-		1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
 		1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionView.swift; sourceTree = "<group>"; };
 		1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlwaysPermissionView.swift; sourceTree = "<group>"; };
 		1F3709542BBCA889008C1666 /* ManualScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScanningView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,12 @@
 		1F37097B2BBCACC4008C1666 /* DetailNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNotificationView.swift; sourceTree = "<group>"; };
 		1F37097D2BBCACD6008C1666 /* DetailMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMoreView.swift; sourceTree = "<group>"; };
 		1F37097F2BBCACF2008C1666 /* RSSIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSIndicator.swift; sourceTree = "<group>"; };
+		1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+NotificationCenter.swift"; sourceTree = "<group>"; };
+		1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Debug.swift"; sourceTree = "<group>"; };
+		1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingDetection.swift; sourceTree = "<group>"; };
+		1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyOptInView.swift; sourceTree = "<group>"; };
+		1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
 		1FEA5C9F2BBC8A250023D38D /* Promixity Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promixity Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerApp.swift; sourceTree = "<group>"; };
 		1FEA5CA42BBC8A250023D38D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -237,6 +247,7 @@
 				1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */,
 				1FF0AA632BBCBD5900748948 /* LocationManager.swift */,
 				1F3709392BBC9E9C008C1666 /* NotificationManager.swift */,
+				1FE2DD9A2BBF35EE009937F8 /* TrackingDetection.swift */,
 			);
 			path = "Bluetooth & Tracking";
 			sourceTree = "<group>";
@@ -249,9 +260,10 @@
 				1F3709452BBCA092008C1666 /* PermissionView.swift */,
 				1F3709472BBCA09E008C1666 /* DoneView.swift */,
 				1F3709492BBCA153008C1666 /* LocationPermissionView.swift */,
-				1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */,
 				1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */,
 				1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */,
+				1FE2DD9C2BBF49E2009937F8 /* StudyOptInView.swift */,
+				1FE2DD9E2BBF4C4A009937F8 /* NotificationPermissionView.swift */,
 			);
 			path = Introduction;
 			sourceTree = "<group>";
@@ -357,6 +369,9 @@
 			children = (
 				1FEA5CA22BBC8A250023D38D /* Promixity_TrackerApp.swift */,
 				1FEA5CA42BBC8A250023D38D /* ContentView.swift */,
+				1FE2DD942BBF33D1009937F8 /* AppDelegate.swift */,
+				1FE2DD962BBF341B009937F8 /* AppDelegate+NotificationCenter.swift */,
+				1FE2DD982BBF34DC009937F8 /* AppDelegate+Debug.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -571,6 +586,7 @@
 				1FF0AA6C2BBCBD6400748948 /* DeviceTypeDetection.swift in Sources */,
 				1FF0AA6F2BBCBD6400748948 /* BluetoothTempData.swift in Sources */,
 				1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */,
+				1FE2DD9D2BBF49E2009937F8 /* StudyOptInView.swift in Sources */,
 				1FF0AA482BBCBCCD00748948 /* TrackerIconView.swift in Sources */,
 				1FF0AA252BBCBC3800748948 /* DisableDevicesView.swift in Sources */,
 				1FF0AA582BBCBD1D00748948 /* URLSessionExtension.swift in Sources */,
@@ -590,6 +606,7 @@
 				1F3709702BBCAC6E008C1666 /* DetailTopView.swift in Sources */,
 				1FF0AA272BBCBC3800748948 /* AppInfoView.swift in Sources */,
 				1FF0AA512BBCBCCD00748948 /* DataModel.xcdatamodeld in Sources */,
+				1FE2DD9B2BBF35EE009937F8 /* TrackingDetection.swift in Sources */,
 				1FF0AA502BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift in Sources */,
 				1FF0AA492BBCBCCD00748948 /* DefaultConstants.swift in Sources */,
 				1F3709742BBCAC87008C1666 /* MapView.swift in Sources */,
@@ -600,13 +617,16 @@
 				1FF0AA6E2BBCBD6400748948 /* BluetoothManagerTimer.swift in Sources */,
 				1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */,
 				1FF0AA2E2BBCBC6000748948 /* BluetoothOffView.swift in Sources */,
+				1FE2DD972BBF341B009937F8 /* AppDelegate+NotificationCenter.swift in Sources */,
 				1FF0AA312BBCBC6000748948 /* CustomLabel.swift in Sources */,
 				1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */,
 				1F3709802BBCACF2008C1666 /* RSSIndicator.swift in Sources */,
 				1FF0AA602BBCBD3F00748948 /* AdvertisementDecoder.swift in Sources */,
 				1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */,
+				1FE2DD9F2BBF4C4A009937F8 /* NotificationPermissionView.swift in Sources */,
 				1F37097C2BBCACC4008C1666 /* DetailNotificationView.swift in Sources */,
 				1FF0AA6B2BBCBD6400748948 /* BluetoothRequest.swift in Sources */,
+				1FE2DD952BBF33D1009937F8 /* AppDelegate.swift in Sources */,
 				1FF0AA642BBCBD5900748948 /* LocationManager.swift in Sources */,
 				1F3709592BBCA8A7008C1666 /* ScanningAnimation.swift in Sources */,
 				1FF0AA5F2BBCBD3F00748948 /* SecondsString.swift in Sources */,
@@ -618,7 +638,6 @@
 				1FF0AA542BBCBCCD00748948 /* DatabaseHelpers.swift in Sources */,
 				1F37097E2BBCACD6008C1666 /* DetailMoreView.swift in Sources */,
 				1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */,
-				1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */,
 				1FF0AA282BBCBC3800748948 /* SettingView.swift in Sources */,
 				1FF0AA532BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift in Sources */,
 				1FF0AA4D2BBCBCCD00748948 /* AirTag.swift in Sources */,
@@ -626,6 +645,7 @@
 				1FF0AA612BBCBD3F00748948 /* Clock.swift in Sources */,
 				1FF0AA622BBCBD3F00748948 /* Date.swift in Sources */,
 				1FF0AA522BBCBCCD00748948 /* BaseDeviceExtensions.swift in Sources */,
+				1FE2DD992BBF34DC009937F8 /* AppDelegate+Debug.swift in Sources */,
 				1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */,
 				1FF0AA4F2BBCBCCD00748948 /* DeviceType.swift in Sources */,
 				1FF0AA302BBCBC6000748948 /* CustomForm.swift in Sources */,
@@ -729,7 +749,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -786,7 +806,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -826,7 +846,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -869,7 +889,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

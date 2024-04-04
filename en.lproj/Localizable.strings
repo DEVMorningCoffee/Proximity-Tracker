@@ -24,7 +24,7 @@
 "respect_data" = "We respect your data";
 "respect_data_description" = "Developed by Florida Gulf Coast Univesity students without commercial interests.";
 
-"skip_background_scanning" = "Skip and Disable Background Scanning";
+"skip_background_scanning" = "Skip";
 
 "bluetooth_access" = "Bluetooth Access";
 "bluetooth_access_description" = "Trackers use Bluetooth for communication. Please allow Bluetooth access so Promixity Tracker can detect trackers around you.";
@@ -144,7 +144,7 @@ For technical reasons, not all features are available for every tracker type. Fo
 "developer" = "Developer";
 "maintainer" = "Maintainer";
 "copyright" = "Copyright";
-"informationview_airguard_os" = "Promixity Tracker for %@";
+"informationview_os" = "Promixity Tracker for %@";
 "version" = "Version";
 
 "tracker_history" = "Tracker History";

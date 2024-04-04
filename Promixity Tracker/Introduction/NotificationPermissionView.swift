@@ -32,7 +32,7 @@ struct NotificationPermissionView: View {
 }
 
 
-/// Opens the AirGuard's settings in `Settings` app
+/// Opens the Promoxity Tracker's settings in `Settings` app
 func openAppSettings() {
     if let appSettings = URL(string: UIApplication.openSettingsURLString), UIApplication.shared.canOpenURL(appSettings) {
         UIApplication.shared.open(appSettings)

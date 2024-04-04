@@ -29,7 +29,7 @@ struct BluetoothPermissionView: View {
             }
             
         }) {
-            NotificationPermissionView()
+            LocationPermissionView()
         }
 
         .onChange(of: canProceed) { oldValue, newValue in

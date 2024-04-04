@@ -25,7 +25,7 @@ struct InformationView: View {
                         .padding()*/
                 }
                 
-                Text(String(format: "informationview_airguard_os".localized(), getOSName()))
+                Text(String(format: "informationview_os".localized(), getOSName()))
                     .padding(.bottom, 3)
                 Text("version".localized() + " \(getAppVersion())")
                     .opacity(0.5)

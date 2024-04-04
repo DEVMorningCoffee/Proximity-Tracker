@@ -40,9 +40,6 @@ struct LocationAlwaysPermissionView: View {
         }, canSkip: true) {
             if(settings.appLaunchedBefore) {
                 IntroductionDoneView()
-            }
-            else if Constants.StudyIsActive {
-                // StudyOptInView()
             }else {
                 IntroductionDoneView()
             }

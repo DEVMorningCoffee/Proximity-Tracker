@@ -262,9 +262,9 @@ struct SettingsView: View {
     
     func sendStudyDeletionMail(studyUUID: String) {
         // Construct a mailto url
-        let mailContent = "I hereby request the deletion of the data gathered from the AirGuard application. Deleting data over the app integration failed. My app identifier is \(studyUUID).\n\n Please get back to me when the deletion has been performed.".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let mailContent = "I hereby request the deletion of the data gathered from the Promixty Tracker application. Deleting data over the app integration failed. My app identifier is \(studyUUID).\n\n Please get back to me when the deletion has been performed.".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         
-        let subjectContent = "AirGuard Study Data Deletion Request".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let subjectContent = "Promixity Tracker Study Data Deletion Request".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         
         guard let mailContent, let subjectContent else {
             dataDeletionState = .failed

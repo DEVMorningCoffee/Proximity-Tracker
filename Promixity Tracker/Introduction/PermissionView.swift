@@ -72,15 +72,11 @@ struct NoBackgroundScanningButton: View {
 
         }, label: {
             Text("skip_background_scanning")
-            
+
         })
         
         .modifier(LinkTo(content: {
-            if Constants.StudyIsActive {
-                // StudyOptInView()
-            }else {
-                IntroductionDoneView()
-            }
+            IntroductionDoneView()
         }, isActive: $linkActive))
     }
     

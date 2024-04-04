@@ -12,7 +12,7 @@ struct Promixity_TrackerApp: App {
     
     private let persistenceController = PersistenceController.sharedInstance
     
-    // @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @Environment(\.scenePhase) var scenePhase
     @StateObject var settings = Settings.sharedInstance
     
@@ -20,7 +20,7 @@ struct Promixity_TrackerApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                // .environmentObject(appDelegate)
+                .environmentObject(appDelegate)
                 .onChange(of: scenePhase) { oldPhase, newPhase in
                     
                     if newPhase == .active {
