@@ -45,17 +45,22 @@ struct LinkTo<V0: View>: ViewModifier {
     let destination: () -> V0
     
     init(@ViewBuilder content: @escaping () -> V0, isActive: Binding<Bool>) {
-        destination = content
+        self.destination = content
         self._isActive = isActive
     }
     
     func body(content: Content) -> some View {
-        content
-            .background(NavigationLink("", isActive: $isActive, destination: destination)
-                .disabled(true)
-                .hidden())
+            content
+                .background(
+                    NavigationLink("", isActive: $isActive, destination: destination)
+                        .disabled(true)
+                        .hidden()
+                )
     }
+
 }
+
+
 
 
 class IntroducationViewController: ObservableObject {
@@ -99,7 +104,7 @@ struct IntroductionButtonView<V0: View>: View {
             }
         }, label: "continue")
             .modifier(LinkTo(content: destination, isActive: $linkActive))
-            .onChange(of: controller.canProceed) { newValue in
+            .onChange(of: controller.canProceed) { oldValue, newValue in
                 if(newValue && !linkActive) {
                     controller.canProceed = false
                     linkActive = true
@@ -113,8 +118,6 @@ struct InformationContainerView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             InformationDetailView(title: "manual_scan", subTitle: "manual_scan_description", imageName: "magnifyingglass")
-            
-            InformationDetailView(title: "background_scan", subTitle: "background_scan_description", imageName: "exclamationmark.bubble")
             
             InformationDetailView(title: "respect_data", subTitle: "respect_data_description", imageName: "lock")
         }

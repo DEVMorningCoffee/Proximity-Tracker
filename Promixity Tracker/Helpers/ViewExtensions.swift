@@ -215,14 +215,20 @@ extension Text {
 
 private struct SafeAreaInsetsKey: EnvironmentKey {
     
-    /// returns the EdgeInsets for the current view
+    /// Returns the EdgeInsets for the current view.
     static var defaultValue: EdgeInsets {
-        (UIApplication.shared.windows.first(where: { $0.isKeyWindow })?.safeAreaInsets ?? .zero).insets
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let keyWindow = windowScene.windows.first(where: { $0.isKeyWindow }) else {
+            return EdgeInsets()
+        }
+        
+        let insets = keyWindow.safeAreaInsets
+        return EdgeInsets(top: insets.top, leading: insets.left, bottom: insets.bottom, trailing: insets.right)
     }
 }
 
 extension EnvironmentValues {
-
+    
     /// Property to access the safeAreaInsets from any view.
     var safeAreaInsets: EdgeInsets {
         self[SafeAreaInsetsKey.self]
@@ -231,7 +237,7 @@ extension EnvironmentValues {
 
 private extension UIEdgeInsets {
     
-    /// returns the UIEdgeInsets for the current view
+    /// Returns the EdgeInsets for the current view.
     var insets: EdgeInsets {
         EdgeInsets(top: top, leading: left, bottom: bottom, trailing: right)
     }

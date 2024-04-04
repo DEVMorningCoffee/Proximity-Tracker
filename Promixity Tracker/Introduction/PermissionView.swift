@@ -77,7 +77,7 @@ struct NoBackgroundScanningButton: View {
         
         .modifier(LinkTo(content: {
             if Constants.StudyIsActive {
-                StudyOptInView()
+                // StudyOptInView()
             }else {
                 IntroductionDoneView()
             }

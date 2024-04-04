@@ -281,21 +281,16 @@ open class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObjec
             // Search for all locations which are less than accuracyLimit from the location. If there is one, we take it to reduce the locations in the database.
             // let databaseLocation = fetchLocation(aroundLocation: forLocation, radius: accuracyLimit, context: context)
             
-            // take old one
-            /*if let existingLocation = databaseLocation {
-                log("Took old location")
-                callback(existingLocation, context)
-            }
-            else {
-                // create new location in database
-                log("Received new location")
-                let newLocation = Location(context: context)
-                newLocation.accuracy = forLocation.horizontalAccuracy
-                newLocation.latitude = forLocation.coordinate.latitude
-                newLocation.longitude = forLocation.coordinate.longitude
+            //
+            // create new location in database
+            log("Received new location")
+            let newLocation = Location(context: context)
+            newLocation.accuracy = forLocation.horizontalAccuracy
+            newLocation.latitude = forLocation.coordinate.latitude
+            newLocation.longitude = forLocation.coordinate.longitude
                 
-                callback(newLocation, context)
-            }*/
+            callback(newLocation, context)
+            
         }
     }
 

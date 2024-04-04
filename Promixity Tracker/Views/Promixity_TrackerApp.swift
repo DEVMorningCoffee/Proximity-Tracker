@@ -21,7 +21,7 @@ struct Promixity_TrackerApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 // .environmentObject(appDelegate)
-                .onChange(of: scenePhase) { newPhase in
+                .onChange(of: scenePhase) { oldPhase, newPhase in
                     
                     if newPhase == .active {
                         settings.isBackground = false

@@ -85,7 +85,7 @@ struct PrecisionFindingView: View {
         .onDisappear{
             BluetoothManager.sharedInstance.disableFastScan()
         }
-        .onChange(of: scenePhase) { newPhase in
+        .onChange(of: scenePhase) { oldPhase, newPhase in
             if newPhase == .active {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
                     startScan()
@@ -138,20 +138,21 @@ struct PrecisionOverlayElements: View {
             Spacer()
             
             Indicator(pct: pct, color: textColor)
-                .onChange(of: pct, perform: {[pct] newPct in
+                .onChange(of: pct) { oldPct, newPct in
                     if newPct == 0 {
                         errorVibration()
-                    } else if abs(pct - newPct) > 0.05, self.lastVibration.isOlderThan(seconds: 5) {
+                    } else if abs(oldPct - newPct) > 0.05, self.lastVibration.isOlderThan(seconds: 5) {
                         lastVibration = Date()
-                        if pct > newPct {
+                        if oldPct > newPct {
                             // User is going away
                             errorVibration()
-                        }else {
+                        } else {
                             // User is getting closer
                             doubleVibration()
                         }
                     }
-                })
+                }
+
 
             Group {
                 if(notReachable) {
@@ -239,7 +240,7 @@ struct SoundAndCloseView: View {
                                 Alert(title: Text(soundManager.error?.title ?? ""), message: Text(soundManager.error?.description ?? ""))
                             })
                             
-                            .onChange(of: soundManager.error) { val in
+                            .onChange(of: soundManager.error) { oldVal, val in
                                 if(val != nil) {
                                     showSoundErrorInfo = true
                                 }

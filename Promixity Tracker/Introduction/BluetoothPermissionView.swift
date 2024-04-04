@@ -32,7 +32,7 @@ struct BluetoothPermissionView: View {
             NotificationPermissionView()
         }
 
-        .onChange(of: canProceed) { newValue in
+        .onChange(of: canProceed) { oldValue, newValue in
             IntroducationViewController.sharedInstance.canProceed = true
         }
     }

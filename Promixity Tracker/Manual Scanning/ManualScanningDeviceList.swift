@@ -84,9 +84,8 @@ struct DeviceEntryButton: View {
         .foregroundColor(.primary)
         .buttonStyle(PlainButtonStyle())
         
-        .onChange(of: settings.showSheet) { newValue in
-            if(newValue) {
-                
+        .onChange(of: settings.showSheet) { oldValue, newValue in
+            if newValue {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                     withAnimation(.easeInOut(duration: 0.3)) {
                         showLoading = false
@@ -94,6 +93,7 @@ struct DeviceEntryButton: View {
                 }
             }
         }
+
     }
 }
 

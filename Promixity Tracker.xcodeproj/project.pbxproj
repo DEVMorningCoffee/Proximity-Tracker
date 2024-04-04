@@ -20,7 +20,6 @@
 		1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */; };
 		1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */; };
 		1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */; };
-		1F3709522BBCA244008C1666 /* StudyOptInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709512BBCA244008C1666 /* StudyOptInView.swift */; };
 		1F3709552BBCA889008C1666 /* ManualScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709542BBCA889008C1666 /* ManualScanningView.swift */; };
 		1F3709572BBCA898008C1666 /* DeviceListEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709562BBCA898008C1666 /* DeviceListEntryView.swift */; };
 		1F3709592BBCA8A7008C1666 /* ScanningAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3709582BBCA8A7008C1666 /* ScanningAnimation.swift */; };
@@ -43,8 +42,47 @@
 		1FEA5CB42BBC8A260023D38D /* Promixity_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CB32BBC8A260023D38D /* Promixity_TrackerTests.swift */; };
 		1FEA5CBE2BBC8A260023D38D /* Promixity_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBD2BBC8A260023D38D /* Promixity_TrackerUITests.swift */; };
 		1FEA5CC02BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA5CBF2BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift */; };
-		1FEA5CCE2BBC92FF0023D38D /* Promixity Tracker--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CCD2BBC92FE0023D38D /* Promixity Tracker--Info.plist */; };
-		1FEA5CD32BBC95C30023D38D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FEA5CD22BBC95C30023D38D /* Localizable.strings */; };
+		1FF0AA252BBCBC3800748948 /* DisableDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */; };
+		1FF0AA262BBCBC3800748948 /* DebugMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA222BBCBC3800748948 /* DebugMapView.swift */; };
+		1FF0AA272BBCBC3800748948 /* AppInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA232BBCBC3800748948 /* AppInfoView.swift */; };
+		1FF0AA282BBCBC3800748948 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA242BBCBC3800748948 /* SettingView.swift */; };
+		1FF0AA2E2BBCBC6000748948 /* BluetoothOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */; };
+		1FF0AA2F2BBCBC6000748948 /* NavigationSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */; };
+		1FF0AA302BBCBC6000748948 /* CustomForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */; };
+		1FF0AA312BBCBC6000748948 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */; };
+		1FF0AA472BBCBCCD00748948 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA332BBCBCCD00748948 /* Constants.swift */; };
+		1FF0AA482BBCBCCD00748948 /* TrackerIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */; };
+		1FF0AA492BBCBCCD00748948 /* DefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */; };
+		1FF0AA4A2BBCBCCD00748948 /* ChipoloConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */; };
+		1FF0AA4B2BBCBCCD00748948 /* SmartTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA392BBCBCCD00748948 /* SmartTag.swift */; };
+		1FF0AA4C2BBCBCCD00748948 /* FindMyDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */; };
+		1FF0AA4D2BBCBCCD00748948 /* AirTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */; };
+		1FF0AA4E2BBCBCCD00748948 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3C2BBCBCCD00748948 /* Tile.swift */; };
+		1FF0AA4F2BBCBCCD00748948 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */; };
+		1FF0AA502BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */; };
+		1FF0AA512BBCBCCD00748948 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */; };
+		1FF0AA522BBCBCCD00748948 /* BaseDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */; };
+		1FF0AA532BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */; };
+		1FF0AA542BBCBCCD00748948 /* DatabaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */; };
+		1FF0AA552BBCBCCD00748948 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */; };
+		1FF0AA562BBCBCCD00748948 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA462BBCBCCD00748948 /* Settings.swift */; };
+		1FF0AA582BBCBD1D00748948 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */; };
+		1FF0AA5E2BBCBD3F00748948 /* RSSIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */; };
+		1FF0AA5F2BBCBD3F00748948 /* SecondsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */; };
+		1FF0AA602BBCBD3F00748948 /* AdvertisementDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */; };
+		1FF0AA612BBCBD3F00748948 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5C2BBCBD3F00748948 /* Clock.swift */; };
+		1FF0AA622BBCBD3F00748948 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA5D2BBCBD3F00748948 /* Date.swift */; };
+		1FF0AA642BBCBD5900748948 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA632BBCBD5900748948 /* LocationManager.swift */; };
+		1FF0AA6B2BBCBD6400748948 /* BluetoothRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */; };
+		1FF0AA6C2BBCBD6400748948 /* DeviceTypeDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */; };
+		1FF0AA6D2BBCBD6400748948 /* BluetoohManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */; };
+		1FF0AA6E2BBCBD6400748948 /* BluetoothManagerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */; };
+		1FF0AA6F2BBCBD6400748948 /* BluetoothTempData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */; };
+		1FF0AA702BBCBD6400748948 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */; };
+		1FF0AA722BBCBDE600748948 /* DetailDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */; };
+		1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+		1FF0AA7F2BBCC9BA00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
+		1FF0AA802BBCC9BB00748948 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0AA7E2BBCC97700748948 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +116,6 @@
 		1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
 		1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPermissionView.swift; sourceTree = "<group>"; };
 		1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlwaysPermissionView.swift; sourceTree = "<group>"; };
-		1F3709512BBCA244008C1666 /* StudyOptInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyOptInView.swift; sourceTree = "<group>"; };
 		1F3709542BBCA889008C1666 /* ManualScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScanningView.swift; sourceTree = "<group>"; };
 		1F3709562BBCA898008C1666 /* DeviceListEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListEntryView.swift; sourceTree = "<group>"; };
 		1F3709582BBCA8A7008C1666 /* ScanningAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningAnimation.swift; sourceTree = "<group>"; };
@@ -104,9 +141,47 @@
 		1FEA5CB92BBC8A260023D38D /* Promixity TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promixity TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEA5CBD2BBC8A260023D38D /* Promixity_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerUITests.swift; sourceTree = "<group>"; };
 		1FEA5CBF2BBC8A260023D38D /* Promixity_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promixity_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1FEA5CCC2BBC8D4B0023D38D /* Promixity Tracker (IOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Promixity Tracker (IOS).entitlements"; sourceTree = "<group>"; };
-		1FEA5CCD2BBC92FE0023D38D /* Promixity Tracker--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Promixity Tracker--Info.plist"; sourceTree = "<group>"; };
-		1FEA5CD22BBC95C30023D38D /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisableDevicesView.swift; sourceTree = "<group>"; };
+		1FF0AA222BBCBC3800748948 /* DebugMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapView.swift; sourceTree = "<group>"; };
+		1FF0AA232BBCBC3800748948 /* AppInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoView.swift; sourceTree = "<group>"; };
+		1FF0AA242BBCBC3800748948 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothOffView.swift; sourceTree = "<group>"; };
+		1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationSubView.swift; sourceTree = "<group>"; };
+		1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomForm.swift; sourceTree = "<group>"; };
+		1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		1FF0AA332BBCBCCD00748948 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerIconView.swift; sourceTree = "<group>"; };
+		1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConstants.swift; sourceTree = "<group>"; };
+		1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipoloConstants.swift; sourceTree = "<group>"; };
+		1FF0AA392BBCBCCD00748948 /* SmartTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartTag.swift; sourceTree = "<group>"; };
+		1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyDevice.swift; sourceTree = "<group>"; };
+		1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTag.swift; sourceTree = "<group>"; };
+		1FF0AA3C2BBCBCCD00748948 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseDevice+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDeviceExtensions.swift; sourceTree = "<group>"; };
+		1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseDevice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelpers.swift; sourceTree = "<group>"; };
+		1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1FF0AA462BBCBCCD00748948 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSIDecoder.swift; sourceTree = "<group>"; };
+		1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondsString.swift; sourceTree = "<group>"; };
+		1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementDecoder.swift; sourceTree = "<group>"; };
+		1FF0AA5C2BBCBD3F00748948 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		1FF0AA5D2BBCBD3F00748948 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1FF0AA632BBCBD5900748948 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothRequest.swift; sourceTree = "<group>"; };
+		1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypeDetection.swift; sourceTree = "<group>"; };
+		1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoohManager.swift; sourceTree = "<group>"; };
+		1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManagerTimer.swift; sourceTree = "<group>"; };
+		1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothTempData.swift; sourceTree = "<group>"; };
+		1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailDebugView.swift; path = "../../../../Documents/AirGuard Clone copy/Shared/Views/SheetView/DetailDebugView.swift"; sourceTree = "<group>"; };
+		1FF0AA742BBCC09200748948 /* Promixity Tracker (IOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Promixity Tracker (IOS).entitlements"; sourceTree = "<group>"; };
+		1FF0AA752BBCC0C500748948 /* Promixity--Tracker--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Promixity--Tracker--Info.plist"; sourceTree = "<group>"; };
+		1FF0AA7D2BBCC97700748948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +212,12 @@
 		1F3709322BBC9CC8008C1666 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0AA5B2BBCBD3F00748948 /* AdvertisementDecoder.swift */,
+				1FF0AA5C2BBCBD3F00748948 /* Clock.swift */,
+				1FF0AA5D2BBCBD3F00748948 /* Date.swift */,
+				1FF0AA592BBCBD3F00748948 /* RSSIDecoder.swift */,
+				1FF0AA5A2BBCBD3F00748948 /* SecondsString.swift */,
+				1FF0AA572BBCBD1D00748948 /* URLSessionExtension.swift */,
 				1F3709332BBC9CDA008C1666 /* NFCReader.swift */,
 				1F3709352BBC9E2A008C1666 /* Logger.swift */,
 				1F37093C2BBC9FCD008C1666 /* ViewExtensions.swift */,
@@ -148,6 +229,13 @@
 		1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0AA672BBCBD6400748948 /* BluetoohManager.swift */,
+				1FF0AA682BBCBD6400748948 /* BluetoothManagerTimer.swift */,
+				1FF0AA652BBCBD6400748948 /* BluetoothRequest.swift */,
+				1FF0AA692BBCBD6400748948 /* BluetoothTempData.swift */,
+				1FF0AA662BBCBD6400748948 /* DeviceTypeDetection.swift */,
+				1FF0AA6A2BBCBD6400748948 /* SoundManager.swift */,
+				1FF0AA632BBCBD5900748948 /* LocationManager.swift */,
 				1F3709392BBC9E9C008C1666 /* NotificationManager.swift */,
 			);
 			path = "Bluetooth & Tracking";
@@ -164,7 +252,6 @@
 				1F37094B2BBCA193008C1666 /* NotificationPermissionView.swift */,
 				1F37094D2BBCA1C3008C1666 /* BluetoothPermissionView.swift */,
 				1F37094F2BBCA200008C1666 /* LocationAlwaysPermissionView.swift */,
-				1F3709512BBCA244008C1666 /* StudyOptInView.swift */,
 			);
 			path = Introduction;
 			sourceTree = "<group>";
@@ -184,6 +271,7 @@
 		1F37096B2BBCAC40008C1666 /* SheetView */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0AA712BBCBDE600748948 /* DetailDebugView.swift */,
 				1F37096D2BBCAC5F008C1666 /* TrackerDetailView.swift */,
 				1F37096F2BBCAC6E008C1666 /* DetailTopView.swift */,
 				1F3709712BBCAC7F008C1666 /* DetailMapView.swift */,
@@ -201,8 +289,9 @@
 		1FEA5C962BBC8A250023D38D = {
 			isa = PBXGroup;
 			children = (
-				1FEA5CCD2BBC92FE0023D38D /* Promixity Tracker--Info.plist */,
-				1FEA5CCC2BBC8D4B0023D38D /* Promixity Tracker (IOS).entitlements */,
+				1FF0AA7E2BBCC97700748948 /* Localizable.strings */,
+				1FF0AA752BBCC0C500748948 /* Promixity--Tracker--Info.plist */,
+				1FF0AA742BBCC09200748948 /* Promixity Tracker (IOS).entitlements */,
 				1FEA5CA12BBC8A250023D38D /* Promixity Tracker */,
 				1FEA5CB22BBC8A260023D38D /* Promixity TrackerTests */,
 				1FEA5CBC2BBC8A260023D38D /* Promixity TrackerUITests */,
@@ -223,13 +312,15 @@
 		1FEA5CA12BBC8A250023D38D /* Promixity Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0AA322BBCBCCD00748948 /* Models & Type Detection */,
+				1FF0AA292BBCBC6000748948 /* Custom UI */,
+				1FF0AA202BBCBC3800748948 /* SettingViews */,
 				1F37096B2BBCAC40008C1666 /* SheetView */,
 				1F3709532BBCA877008C1666 /* Manual Scanning */,
 				1F3709402BBCA041008C1666 /* Introduction */,
 				1F3709372BBC9E75008C1666 /* Bluetooth & Tracking */,
 				1F3709322BBC9CC8008C1666 /* Helpers */,
 				1FEA5CCF2BBC94F30023D38D /* Views */,
-				1FEA5CD22BBC95C30023D38D /* Localizable.strings */,
 				1FEA5CA62BBC8A260023D38D /* Assets.xcassets */,
 				1FEA5CA82BBC8A260023D38D /* Preview Content */,
 			);
@@ -268,6 +359,75 @@
 				1FEA5CA42BBC8A250023D38D /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1FF0AA202BBCBC3800748948 /* SettingViews */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA212BBCBC3800748948 /* DisableDevicesView.swift */,
+				1FF0AA222BBCBC3800748948 /* DebugMapView.swift */,
+				1FF0AA232BBCBC3800748948 /* AppInfoView.swift */,
+				1FF0AA242BBCBC3800748948 /* SettingView.swift */,
+			);
+			path = SettingViews;
+			sourceTree = "<group>";
+		};
+		1FF0AA292BBCBC6000748948 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA2A2BBCBC6000748948 /* BluetoothOffView.swift */,
+				1FF0AA2B2BBCBC6000748948 /* NavigationSubView.swift */,
+				1FF0AA2C2BBCBC6000748948 /* CustomForm.swift */,
+				1FF0AA2D2BBCBC6000748948 /* CustomLabel.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		1FF0AA322BBCBCCD00748948 /* Models & Type Detection */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA462BBCBCCD00748948 /* Settings.swift */,
+				1FF0AA332BBCBCCD00748948 /* Constants.swift */,
+				1FF0AA342BBCBCCD00748948 /* Device Type Detection */,
+				1FF0AA3E2BBCBCCD00748948 /* CoreData */,
+			);
+			path = "Models & Type Detection";
+			sourceTree = "<group>";
+		};
+		1FF0AA342BBCBCCD00748948 /* Device Type Detection */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA352BBCBCCD00748948 /* TrackerIconView.swift */,
+				1FF0AA362BBCBCCD00748948 /* TrackerConstants */,
+				1FF0AA3D2BBCBCCD00748948 /* DeviceType.swift */,
+			);
+			path = "Device Type Detection";
+			sourceTree = "<group>";
+		};
+		1FF0AA362BBCBCCD00748948 /* TrackerConstants */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA372BBCBCCD00748948 /* DefaultConstants.swift */,
+				1FF0AA382BBCBCCD00748948 /* ChipoloConstants.swift */,
+				1FF0AA392BBCBCCD00748948 /* SmartTag.swift */,
+				1FF0AA3A2BBCBCCD00748948 /* FindMyDevice.swift */,
+				1FF0AA3B2BBCBCCD00748948 /* AirTag.swift */,
+				1FF0AA3C2BBCBCCD00748948 /* Tile.swift */,
+			);
+			path = TrackerConstants;
+			sourceTree = "<group>";
+		};
+		1FF0AA3E2BBCBCCD00748948 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1FF0AA3F2BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift */,
+				1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */,
+				1FF0AA422BBCBCCD00748948 /* BaseDeviceExtensions.swift */,
+				1FF0AA432BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift */,
+				1FF0AA442BBCBCCD00748948 /* DatabaseHelpers.swift */,
+				1FF0AA452BBCBCCD00748948 /* PersistenceController.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,7 +515,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 1FEA5C962BBC8A250023D38D;
 			productRefGroup = 1FEA5CA02BBC8A250023D38D /* Products */;
@@ -374,9 +533,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FEA5CD32BBC95C30023D38D /* Localizable.strings in Resources */,
-				1FEA5CCE2BBC92FF0023D38D /* Promixity Tracker--Info.plist in Resources */,
 				1FEA5CAA2BBC8A260023D38D /* Preview Assets.xcassets in Resources */,
+				1FF0AA7C2BBCC97700748948 /* Localizable.strings in Resources */,
 				1FEA5CA72BBC8A260023D38D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +543,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF0AA7F2BBCC9BA00748948 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +551,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF0AA802BBCC9BB00748948 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,33 +565,70 @@
 				1F37096E2BBCAC5F008C1666 /* TrackerDetailView.swift in Sources */,
 				1F37095B2BBCA8C4008C1666 /* TrackingHistoryView.swift in Sources */,
 				1F3709762BBCAC97008C1666 /* DetailGeneralView.swift in Sources */,
+				1FF0AA6D2BBCBD6400748948 /* BluetoohManager.swift in Sources */,
 				1F3709552BBCA889008C1666 /* ManualScanningView.swift in Sources */,
+				1FF0AA4A2BBCBCCD00748948 /* ChipoloConstants.swift in Sources */,
+				1FF0AA6C2BBCBD6400748948 /* DeviceTypeDetection.swift in Sources */,
+				1FF0AA6F2BBCBD6400748948 /* BluetoothTempData.swift in Sources */,
 				1FEA5CA52BBC8A250023D38D /* ContentView.swift in Sources */,
+				1FF0AA482BBCBCCD00748948 /* TrackerIconView.swift in Sources */,
+				1FF0AA252BBCBC3800748948 /* DisableDevicesView.swift in Sources */,
+				1FF0AA582BBCBD1D00748948 /* URLSessionExtension.swift in Sources */,
 				1F3709502BBCA200008C1666 /* LocationAlwaysPermissionView.swift in Sources */,
+				1FF0AA562BBCBCCD00748948 /* Settings.swift in Sources */,
+				1FF0AA552BBCBCCD00748948 /* PersistenceController.swift in Sources */,
 				1FEA5CA32BBC8A250023D38D /* Promixity_TrackerApp.swift in Sources */,
 				1F3709482BBCA09E008C1666 /* DoneView.swift in Sources */,
 				1F3709572BBCA898008C1666 /* DeviceListEntryView.swift in Sources */,
+				1FF0AA4E2BBCBCCD00748948 /* Tile.swift in Sources */,
 				1F37093A2BBC9E9C008C1666 /* NotificationManager.swift in Sources */,
+				1FF0AA262BBCBC3800748948 /* DebugMapView.swift in Sources */,
 				1F37094A2BBCA153008C1666 /* LocationPermissionView.swift in Sources */,
 				1F3709782BBCACA5008C1666 /* PrecisionFindingView.swift in Sources */,
 				1F3709722BBCAC7F008C1666 /* DetailMapView.swift in Sources */,
+				1FF0AA472BBCBCCD00748948 /* Constants.swift in Sources */,
 				1F3709702BBCAC6E008C1666 /* DetailTopView.swift in Sources */,
+				1FF0AA272BBCBC3800748948 /* AppInfoView.swift in Sources */,
+				1FF0AA512BBCBCCD00748948 /* DataModel.xcdatamodeld in Sources */,
+				1FF0AA502BBCBCCD00748948 /* BaseDevice+CoreDataClass.swift in Sources */,
+				1FF0AA492BBCBCCD00748948 /* DefaultConstants.swift in Sources */,
 				1F3709742BBCAC87008C1666 /* MapView.swift in Sources */,
 				1F37097A2BBCACB0008C1666 /* EnableFindingView.swift in Sources */,
+				1FF0AA722BBCBDE600748948 /* DetailDebugView.swift in Sources */,
 				1F3709342BBC9CDA008C1666 /* NFCReader.swift in Sources */,
+				1FF0AA702BBCBD6400748948 /* SoundManager.swift in Sources */,
+				1FF0AA6E2BBCBD6400748948 /* BluetoothManagerTimer.swift in Sources */,
 				1F37094E2BBCA1C3008C1666 /* BluetoothPermissionView.swift in Sources */,
+				1FF0AA2E2BBCBC6000748948 /* BluetoothOffView.swift in Sources */,
+				1FF0AA312BBCBC6000748948 /* CustomLabel.swift in Sources */,
 				1F37093D2BBC9FCD008C1666 /* ViewExtensions.swift in Sources */,
 				1F3709802BBCACF2008C1666 /* RSSIndicator.swift in Sources */,
+				1FF0AA602BBCBD3F00748948 /* AdvertisementDecoder.swift in Sources */,
 				1F3709462BBCA092008C1666 /* PermissionView.swift in Sources */,
 				1F37097C2BBCACC4008C1666 /* DetailNotificationView.swift in Sources */,
+				1FF0AA6B2BBCBD6400748948 /* BluetoothRequest.swift in Sources */,
+				1FF0AA642BBCBD5900748948 /* LocationManager.swift in Sources */,
 				1F3709592BBCA8A7008C1666 /* ScanningAnimation.swift in Sources */,
+				1FF0AA5F2BBCBD3F00748948 /* SecondsString.swift in Sources */,
+				1FF0AA5E2BBCBD3F00748948 /* RSSIDecoder.swift in Sources */,
+				1FF0AA2F2BBCBC6000748948 /* NavigationSubView.swift in Sources */,
 				1F3709362BBC9E2A008C1666 /* Logger.swift in Sources */,
 				1F37095D2BBCA8D9008C1666 /* ManualScanningDeviceList.swift in Sources */,
+				1FF0AA4C2BBCBCCD00748948 /* FindMyDevice.swift in Sources */,
+				1FF0AA542BBCBCCD00748948 /* DatabaseHelpers.swift in Sources */,
 				1F37097E2BBCACD6008C1666 /* DetailMoreView.swift in Sources */,
 				1F3709422BBCA077008C1666 /* IntroductionView.swift in Sources */,
 				1F37094C2BBCA193008C1666 /* NotificationPermissionView.swift in Sources */,
-				1F3709522BBCA244008C1666 /* StudyOptInView.swift in Sources */,
+				1FF0AA282BBCBC3800748948 /* SettingView.swift in Sources */,
+				1FF0AA532BBCBCCD00748948 /* BaseDevice+CoreDataProperties.swift in Sources */,
+				1FF0AA4D2BBCBCCD00748948 /* AirTag.swift in Sources */,
+				1FF0AA4B2BBCBCCD00748948 /* SmartTag.swift in Sources */,
+				1FF0AA612BBCBD3F00748948 /* Clock.swift in Sources */,
+				1FF0AA622BBCBD3F00748948 /* Date.swift in Sources */,
+				1FF0AA522BBCBCCD00748948 /* BaseDeviceExtensions.swift in Sources */,
 				1F3709442BBCA084008C1666 /* BigButtonView.swift in Sources */,
+				1FF0AA4F2BBCBCCD00748948 /* DeviceType.swift in Sources */,
+				1FF0AA302BBCBC6000748948 /* CustomForm.swift in Sources */,
 				1F37093F2BBCA008008C1666 /* TapticControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +664,17 @@
 			targetProxy = 1FEA5CBA2BBC8A260023D38D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FF0AA7E2BBCC97700748948 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF0AA7D2BBCC97700748948 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FEA5CC12BBC8A260023D38D /* Debug */ = {
@@ -600,7 +808,7 @@
 				DEVELOPMENT_TEAM = R4ZV87846Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Promixity Tracker--Info.plist";
+				INFOPLIST_FILE = "Promixity--Tracker--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Please select access to NFC to scan the NFC chip build into some trackers.";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
@@ -612,12 +820,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -642,7 +851,7 @@
 				DEVELOPMENT_TEAM = R4ZV87846Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Promixity Tracker--Info.plist";
+				INFOPLIST_FILE = "Promixity--Tracker--Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NFCReaderUsageDescription = "Please select access to NFC to scan the NFC chip build into some trackers.";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To scan for trackers, you need to allow acess to Bluetooth";
@@ -654,12 +863,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fgcu.capstone.Promixity-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -804,6 +1014,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FF0AA402BBCBCCD00748948 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 1FF0AA412BBCBCCD00748948 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1FEA5C972BBC8A250023D38D /* Project object */;
 }

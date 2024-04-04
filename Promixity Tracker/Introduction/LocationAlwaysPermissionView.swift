@@ -42,13 +42,13 @@ struct LocationAlwaysPermissionView: View {
                 IntroductionDoneView()
             }
             else if Constants.StudyIsActive {
-                StudyOptInView()
+                // StudyOptInView()
             }else {
                 IntroductionDoneView()
             }
             
         }
-        .onChange(of: canProceed) { newValue in
+        .onChange(of: canProceed) { oldValue, newValue in
             settings.backgroundScanning = true
             locationManager.enableBackgroundLocationUpdate()
             IntroducationViewController.sharedInstance.canProceed = true

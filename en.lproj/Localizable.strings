@@ -6,3 +6,191 @@
   
 */
 
+"unknown_device" = "Unknown";
+"find_my_device" = "Find My Device";
+"chipolo_without_findmy" = "Chipolo (w/o Find My)";
+"left" = "Left";
+"right" = "Right";
+
+"manual_scan" = "Manual Scan";
+"scan" = "Scan";
+"manual_scan_description" = "Scan for surrounding AirTags, SmartTags, Tiles and more!";
+"manual_scanning_wait" = "A full scan can still take %@.";
+"manual_scan_disclaimer" = "All trackers displayed are not necessarily dangerous.";
+
+"background_scan" = "Background Scan";
+"background_scan_description" = "Get a notification if a tracker might track you!";
+
+"respect_data" = "We respect your data";
+"respect_data_description" = "Developed by Florida Gulf Coast Univesity students without commercial interests.";
+
+"skip_background_scanning" = "Skip and Disable Background Scanning";
+
+"bluetooth_access" = "Bluetooth Access";
+"bluetooth_access_description" = "Trackers use Bluetooth for communication. Please allow Bluetooth access so Promixity Tracker can detect trackers around you.";
+
+"notification_access" = "Notification Access";
+"notification_access_description" = "To receive a notification if you might have been tracked, you need to enable notifications for Promixity Tracker.";
+
+"location_access" = "Location Access";
+"location_access_description" = "We use the location of your device to determine if a tracker is actually following you. All location data stay on your device. Please tap \"Continue\" and select \"Allow While Using App\". Make sure \"Precise\" is turned on.";
+
+"background_location" = "Background Location";
+"background_location_description" = "To be able to use the location in the background as well, we need your permission again. Please tap \"Continue\" and make sure that location access is set to \"Change to Always Allow\".";
+
+"all_done" = "All done!";
+"all_done_description" = "Important: Background scanning does not work with AirTags and \"Find My\" devices. Protection from these trackers is already provided by Apple's pre-installed \"Find My\" app.
+
+For technical reasons, not all features are available for every tracker type. For example, the determination if trackers are separated from their owners is only available for SmartTags.";
+
+"we_detected_X_trackers_around_you" = "We detected %@ %@ around you so far.";
+"tracker_singular" = "tracker";
+"tracker_plural" = "trackers";
+
+"first_seen" = "First Seen";
+"last_seen" = "Last seen";
+"tracker_locations" = "Tracker Locations";
+
+"general" = "General";
+"study_settings" = "Study Participation";
+"ignore_trackers_footer" = "Ignoring trackers will stop notifications in the background.";
+"ignore_this_tracker" = "Ignore Tracker";
+"ignore_every" = "Ignore Every";
+"connecting_in_progress" = "Connecting...";
+"playing_in_progress" = "Playing...";
+"play_sound" = "Play Sound";
+
+"more" = "More";
+"more_trackerdetailview_description" = "Learn more, e.g. how to disable the tracker.";
+"website_manufacturer" = "Manufacturer's Website";
+"scan_nfc" = "Information About Owner";
+
+"accuracy" = "Accuracy";
+"background_scanning" = "Background Scanning";
+
+"manage_ignored_devices" = "Manage Ignored Devices";
+"ignored_devices" = "Ignored Devices";
+"device_types" = "Device Types";
+"ignore_type_footer" = "If you disable a device type above, you will no longer receive notifications for any device of this type.";
+"devices" = "Devices";
+
+"seen_x_times_last" = "Seen %@x, last: %@";
+
+"no_trackers_detected_yet" = "We did not detect any trackers following you yet. You are safe.";
+"no_device_detected_yet" = "We did not discover any trackers in the past. Check back later.";
+
+"info" = "Info";
+"privacy_policy" = "Privacy Policy";
+
+"no_bluetooth_access" = "No Bluetooth Access";
+"no_bluetooth_access_description" = "You need to allow Promixity Tracker to access Bluetooth in \"Settings\".";
+
+"bluetooth_off" = "Bluetooth is off";
+"bluetooth_off_description" = "Bluetooth must be turned on to use.";
+
+"playback_failed" = "Playback Failed!";
+"playback_failed_description" = "The tracker does not allow playback at the moment. This usually means that this tracker is connected to its owner. Thus, it is unlikely that this tracker is actually tracking you.";
+
+"couldnt_connect" = "Couldn't connect!";
+"couldnt_connect_description" = "Your device could not connect to this tracker. This usually means that the tracker is not in range. Move around and try again.";
+
+
+"background_scanning_paused" = "Background scanning paused";
+"background_scanning_paused_description" = "Enable Bluetooth and tap here to resume background scanning.";
+
+"background_location_paused" = "No Location Access";
+"background_location_paused_description" = "You need to set location access to \"Always\" and \"Precise\" for background scanning to work correctly.";
+
+"tracker_follows_you" = "A tracker might follow you!";
+"update_tracker_observing" = "Observed Tracker Update";
+"observed_tracker_not_found" = "Your observed tracker \"%@\" was not found anymore. Tap to mark notifications as false alarms.";
+"tracker_follows_you_description" = "\"%@\" was detected %@ and is still nearby! Tap to see more.";
+"tracker_still_follows_you_description" = "\"%@\" is still nearby! Tap to see more.";
+
+"observe_tracker" = "Observe Tracker";
+"off" = "Off";
+"start_observation" = "Start Observation";
+"observe_tracker_description" = "If you are not sure if this tracker follows you, you can manually observe it.\n\nIn one hour, Promixity Tracker will search for this tracker and deliver a notification immediately, even if you did not move with this tracker. If the tracker is not around anymore, you will receive a notification about that as well.";
+"feature_unavailable" = "Feature Unavailable";
+"observing_unavailable_description" = "Enable background scanning and disable 'Ignore This Tracker' to observe this tracker.";
+
+"mark_false_alarm" = "Mark as False Alarm";
+"unmark_false_alarm" = "Unmark as False Alarm";
+"false_alarm_description" = "By marking notifications as false alarms, you help improving Promixity Tracker.";
+
+"nfc_description" = "Hold the %@ to the top back of your iPhone.";
+
+"now" = "just now";
+
+"home" = "Home";
+"done" = "Done";
+"settings" = "Settings";
+"welcome_to" = "Welcome to";
+"continue" = "Continue";
+
+"notifications" = "Notifications";
+
+"security_level" = "Security Level";
+"low" = "Low";
+"security_level_low_description" = "Using the low security level will delay notifications longer. You shouldn't get many false alarms with this setting, but it's also possible that you won't receive a notification for a tracker which actually follows you.";
+"normal" = "Normal";
+"security_level_normal_description" = "The normal security level provides a good compromise between too many false notifications and fast detection speed of trackers following you.";
+"high" = "High";
+"security_level_high_description" = "Using the high security level will send notifications faster. You will receive notifications for trackers which follow you very fast - but you might also get a lot of false alarms with this setting.";
+
+"information_and_contact" = "Information & Contact";
+"contact_developer" = "Contact Us";
+"credits" = "Credits";
+"developer" = "Developer";
+"maintainer" = "Maintainer";
+"copyright" = "Copyright";
+"informationview_airguard_os" = "Promixity Tracker for %@";
+"version" = "Version";
+
+"tracker_history" = "Tracker History";
+"older_trackers" = "Older Trackers";
+
+"no_location_access" = "No Location Access";
+"no_location_access_description" = "Promixity Tracker can't access your location in the background. Tap to allow location access.";
+"featured" = "Featured";
+
+"nearby" = "Nearby";
+"no_connection" = "Currently Not in Range";
+"owner_connected" = "Connected to Owner in Last 15m";
+"owner_disconnected" = "Separated From Owner";
+"unknown_connection_status" = "Unknown Connection Status";
+
+"locate_tracker" = "Locate Tracker";
+"trying_connection" = "No signal. Connecting...";
+"precision_finding_hint" = "Move slowly and try to maximize the signal strength to find the tracker.";
+"close_stop_searching" = "Close and Stop Searching";
+
+"no_risk" = "No Risk";
+"medium_risk" = "Medium Risk";
+"high_risk" = "High Risk";
+"unknown_risk" = "Unknown Risk";
+
+"background_scanning_disabled" = "Background scanning is disabled.";
+"x_potential_trackers_detected" = "%@ %@ of potential trackers in the last %@ days.";
+"alert_singular" = "alert";
+"alert_plural" = "alerts";
+"no" = "No";
+
+"knowledge" = "Knowledge";
+
+
+"safe_trackers" = "Safe Trackers";
+"safe_trackers_header" = "What are Safe Trackers?";
+"safe_trackers_description" = "
+Safe trackers are devices which probably do not follow you.
+
+We consider two types of trackers as safe. Trackers which were ignored explicitly and trackers which are connected to their owners.
+
+The latter cannot be used to track your location. Please note that the connection status can currently only be determined for SmartTags.";
+
+
+"article_info" = "By %@ • %@ min read";
+"more_articles" = "More Articles";
+
+"map_unavailable_ignored" = "The map is unavailable because the tracker is ignored.";
+"map_unavailable_no_locations" = "The map is unavailable because no locations have been found for this tracker.";

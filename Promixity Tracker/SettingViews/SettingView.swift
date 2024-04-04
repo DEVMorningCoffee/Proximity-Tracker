@@ -226,11 +226,13 @@ struct SettingsView: View {
     
     func requestDataDeletion() {
         // Get the UUID from the data study
+        /*
         guard let studyUUID = UserDefaults.standard.string(forKey: "dataDonatorToken") else {
             // No data has been uploaded yet, so we can just end here
             dataDeletionState = .succeeded
             return
         }
+         */
         
         var deletionSucceeded = false
         DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
@@ -252,13 +254,6 @@ struct SettingsView: View {
                         dataDeletionState = .succeeded
                     }
                     UserDefaults.standard.removeObject(forKey: "dataDonatorToken")
-                }
-            }catch {
-               //Send an email if it fails
-                deletionSucceeded = true
-                self.isDeletingStudyData = false
-                await MainActor.run {
-                    sendStudyDeletionMail(studyUUID: studyUUID)
                 }
             }
         }

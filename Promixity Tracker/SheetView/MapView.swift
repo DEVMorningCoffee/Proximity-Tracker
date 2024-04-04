@@ -57,7 +57,7 @@ struct MapView: UIViewRepresentable {
         /// Add the circles. This shows the user that the locations might not be 100% precise.
         for annotation in annotations {
             
-            let center = annotation.coordinate
+            _ = annotation.coordinate
             
             /// The radius is the minimum accuracy. This makes sure that the actual location is somewhere in the circle.
             // let circle = MKCircle(center: center, radius: LocationManager.sharedInstance.accuracyLimit)
